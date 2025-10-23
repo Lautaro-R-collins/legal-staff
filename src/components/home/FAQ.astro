@@ -1,0 +1,47 @@
+---
+export const faqs = [
+  {
+    question: '¿Qué servicios legales ofrecen?',
+    answer:
+      'Brindamos asesoramiento y representación en derecho civil, penal, laboral y comercial, adaptándonos a las necesidades de cada cliente.',
+  },
+  {
+    question: '¿Cómo puedo solicitar una consulta?',
+    answer:
+      'Podés contactarnos a través del formulario en la sección de contacto o por teléfono. Te responderemos a la brevedad para coordinar una cita.',
+  },
+  {
+    question: '¿Atienden casos en todo el país?',
+    answer:
+      'Sí, contamos con presencia en distintas provincias y también realizamos consultas virtuales para clientes de todo el país.',
+  },
+  {
+    question: '¿Cuál es el costo de una consulta inicial?',
+    answer:
+      'La primera consulta es sin compromiso. Luego, te brindamos un presupuesto claro y adaptado al tipo de caso.',
+  },
+];
+
+---
+
+<section class="py-20 bg-base-200">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-3xl md:text-4xl font-bold text-center text-[#0B2545] mb-8">
+      Preguntas Frecuentes
+    </h2>
+
+    <div class="flex flex-col gap-4">
+      {faqs.map((faq, index) => (
+        <div class="collapse collapse-plus border border-base-300 bg-base-100 rounded-lg">
+          <input type="radio" name="faq-accordion" checked={index === 0} />
+          <div class="collapse-title text-lg font-semibold text-[#0B2545]">
+            {faq.question}
+          </div>
+          <div class="collapse-content text-gray-600">
+            <p>{faq.answer}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
