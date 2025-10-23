@@ -1,0 +1,34 @@
+---
+import { testimonials } from "../../Data/testimonials.js";
+
+---
+
+<section class="py-20 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-4 text-[#0B2545]">
+      Lo que dicen nuestros clientes
+    </h2>
+    <p class="text-gray-600 mb-12">
+      La confianza se construye con resultados. Estas son algunas experiencias
+     de quienes confiaron en <span class="font-semibold">Legal Staff</span>.
+    </p>
+
+    <!-- Grid de testimonios -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {testimonials.map((t) => (
+        <div
+          class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition p-6 flex flex-col items-center text-center"
+        >
+          <img
+            src={t.image}
+            alt={t.name}
+            class="w-20 h-20 rounded-full object-cover mb-4 shadow"
+          />
+          <p class="text-gray-600 italic mb-4">"{t.message}"</p>
+          <h3 class="text-lg font-semibold text-[#0B2545]">{t.name}</h3>
+          <span class="text-sm text-gray-500">{t.role}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
