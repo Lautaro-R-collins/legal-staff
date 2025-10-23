@@ -1,9 +1,19 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
 import "../styles/global.css";
-
+import Header from "../components/home/header.astro";
+import Features from "../components/home/features.astro";
+import Mission from "../components/home/mission.astro";
+import Testimonials from "../components/home/testimonials.astro";
+import Faq from "../components/home/FAQ.astro";
+import HomeBanner from "../components/home/homeBanner.astro"
 ---
 
 <Layout>
-	
+  <Header />
+  <Features />
+  <Mission />
+  <Testimonials />
+  <HomeBanner />
+  <Faq />
 </Layout>
