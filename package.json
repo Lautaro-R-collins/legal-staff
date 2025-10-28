@@ -6,7 +6,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "node ./dist/server/entry.mjs",
-    "start": "node ./dist/server/entry.mjs",
+    "start": "node ./dist/server/entry.mjs --port $PORT",
     "astro": "astro"
   },
   "dependencies": {
