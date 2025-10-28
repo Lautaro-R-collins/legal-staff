@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "start": "node ./dist/server/entry.mjs --port $PORT --host 0.0.0.0",
+    "start": "node ./dist/server/entry.mjs",
     "preview": "node ./dist/server/entry.mjs",
     "astro": "astro"
   },
