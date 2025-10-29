@@ -1,4 +1,4 @@
-# ⚖️ Legal Staff — Sitio Web de Asesoramiento Legal
+<img width="1366" height="2834" alt="Screenshot 2025-10-29 at 11-41-33 Astro Basics" src="https://github.com/user-attachments/assets/8051990a-9c11-422e-8e76-77c753218471" /># ⚖️ Legal Staff — Sitio Web de Asesoramiento Legal
 
 Sitio web profesional desarrollado con **Astro**, diseñado para un estudio jurídico moderno.  
 El proyecto cuenta con tres secciones principales: **Inicio**, **Sobre Nosotros** y **Blog**, ofreciendo una navegación fluida, diseño responsive y un enfoque claro en la presentación de servicios legales.
@@ -15,19 +15,20 @@ El proyecto cuenta con tres secciones principales: **Inicio**, **Sobre Nosotros*
 
 ### 🏠 Página de Inicio
 > Presentación general del estudio, encabezado con imagen destacada, descripción de servicios y llamado a la acción.
-![Home Screenshot](./screenshots/home.jpg)
+<img width="1366" height="3220" alt="Screenshot 2025-10-29 at 11-25-55 Astro Basics" src="https://github.com/user-attachments/assets/fda1697a-8c01-4f4a-bdd4-bb19bda3aa09" />
 
 ---
 
 ### 👥 Página Sobre Nosotros
 > Sección informativa sobre el equipo legal y la misión del estudio, con encabezado visual y diseño limpio.
-![About Screenshot](./screenshots/about.jpg)
+![Uploading Screenshot 2025-10-29 at 11-41-33 Astro Basics.png…]()
 
 ---
 
 ### 📰 Página de Blog
 > Espacio para compartir artículos, novedades y análisis jurídicos relevantes.
-![Blog Screenshot](./screenshots/blog.jpg)
+<img width="1366" height="1533" alt="Screenshot 2025-10-29 at 11-41-44 Blog" src="https://github.com/user-attachments/assets/9de99c4e-c77d-4cf0-9042-3b3a47bd39d4" />
+
 
 ---
 
@@ -41,7 +42,8 @@ El proyecto cuenta con tres secciones principales: **Inicio**, **Sobre Nosotros*
 
 ---
 
-## ⚙️ Instalación y Ejecución Local
+## ⚙️ Instalación y ![Uploading Screenshot 2025-10-29 at 11-25-55 Astro Basics.png…]()
+Ejecución Local
 
 ```bash
 # Clonar el repositorio
