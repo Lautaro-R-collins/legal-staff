@@ -1,46 +1,57 @@
-# Astro Starter Kit: Basics
+# ⚖️ Legal Staff — Sitio Web de Asesoramiento Legal
 
-```sh
-npm create astro@latest -- --template basics
-```
+Sitio web profesional desarrollado con **Astro**, diseñado para un estudio jurídico moderno.  
+El proyecto cuenta con tres secciones principales: **Inicio**, **Sobre Nosotros** y **Blog**, ofreciendo una navegación fluida, diseño responsive y un enfoque claro en la presentación de servicios legales.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+---
 
-## 🚀 Project Structure
+## 🌐 Demo en Producción
 
-Inside of your Astro project, you'll see the following folders and files:
+🔗 [Ver sitio desplegado en Vercel](https://legal-staff.vercel.app/)
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+---
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## 📸 Vistas del Sitio
 
-## 🧞 Commands
+### 🏠 Página de Inicio
+> Presentación general del estudio, encabezado con imagen destacada, descripción de servicios y llamado a la acción.
+![Home Screenshot](./screenshots/home.jpg)
 
-All commands are run from the root of the project, from a terminal:
+---
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+### 👥 Página Sobre Nosotros
+> Sección informativa sobre el equipo legal y la misión del estudio, con encabezado visual y diseño limpio.
+![About Screenshot](./screenshots/about.jpg)
 
-## 👀 Want to learn more?
+---
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+### 📰 Página de Blog
+> Espacio para compartir artículos, novedades y análisis jurídicos relevantes.
+![Blog Screenshot](./screenshots/blog.jpg)
+
+---
+
+## 🧰 Tecnologías Utilizadas
+
+- **Astro** — Framework principal para la construcción del sitio
+- **TailwindCSS** — Estilos responsivos y diseño moderno
+- **Vercel** — Hosting y despliegue continuo
+- **Markdown / MDX** — Estructura de los artículos del blog
+- **JavaScript / TypeScript (opcional)** — Lógica ligera de interacción
+
+---
+
+## ⚙️ Instalación y Ejecución Local
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/tu-usuario/tu-repositorio.git
+
+# Entrar al directorio del proyecto
+cd tu-repositorio
+
+# Instalar dependencias
+npm install
+
+# Ejecutar el servidor local
+npm run dev
