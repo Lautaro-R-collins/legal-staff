@@ -1,5 +1,4 @@
 ---
-export const prerender = false; 
 import Base from "../../layouts/Base.astro";
 import { blogPosts } from "../../Data/blogData.js";
 import BlogCard from "../../components/blog/BlogCard.astro";
@@ -16,7 +15,6 @@ const start = (currentPage - 1) * postsPerPage;
 const end = start + postsPerPage;
 const currentPosts = blogPosts.slice(start, end);
 ---
-
 
 <Base title="Blog" meta_title="Artículos legales | Legal Staff">
   <section class="px-6 py-20 max-w-7xl mx-auto">
