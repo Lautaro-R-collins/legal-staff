@@ -46,8 +46,7 @@ El proyecto cuenta con tres secciones principales: **Inicio**, **Sobre Nosotros*
 
 ---
 
-## ⚙️ Instalación y ![Uploading Screenshot 2025-10-29 at 11-25-55 Astro Basics.png…]()
-Ejecución Local
+## ⚙️ Instalación 
 
 ```bash
 # Clonar el repositorio
