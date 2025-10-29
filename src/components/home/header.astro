@@ -1,13 +1,17 @@
+---
+import headerImg from "../../assets/img/headerImg.jpg";
+---
+
 <header
   class="relative h-screen bg-cover bg-center"
-  style="background-image: url('/src/assets/img/headerImg.jpg')"
+  style={{ backgroundImage: `url(${headerImg.src})` }}
 >
   <div class="absolute inset-0 bg-black/70"></div>
   <main
     class="relative z-10 flex flex-col items-center justify-center h-full text-center px-4"
   >
     <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
-      Asesoramiento Legal 
+      Asesoramiento Legal
     </h1>
     <p class="text-lg md:text-2xl text-white mb-8 max-w-2xl">
       Brindamos soluciones jurídicas confiables para empresas y particulares,
