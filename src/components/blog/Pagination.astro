@@ -11,18 +11,20 @@ const pages = Array.from({ length: totalPages }, (_, i) => i + 1);
 
 <div class="flex justify-center mt-12 gap-2">
   <div class="join gap-2">
-    {pages.map((page) => (
-      <a
-        href={`${baseUrl}?page=${page}`}
-        class={`join-item font-bold p-2 px-4 rounded ${
-          page === currentPage
-            ? "bg-[#0B2545] text-white hover:bg-[#06172c]"
-            : "bg-white border border-gray-300 text-gray-700 hover:bg-gray-100"
-        }`}
-        aria-label={`Page ${page}`}
-      >
-        {page}
-      </a>
-    ))}
+    {
+      pages.map((page) => (
+        <a
+          href={`${baseUrl}?page=${page}`}
+          class={`join-item font-bold p-2 px-4 rounded ${
+            page === currentPage
+              ? "bg-[#0B2545] text-white hover:bg-[#06172c]"
+              : "bg-white border border-gray-300 text-gray-700 hover:bg-gray-100"
+          }`}
+          aria-label={`Page ${page}`}
+        >
+          {page}
+        </a>
+      ))
+    }
   </div>
 </div>
