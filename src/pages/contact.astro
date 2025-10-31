@@ -4,116 +4,115 @@ import Layout from "../layouts/Layout.astro";
 
 <Layout>
   <section class="px-6 py-20 max-w-7xl mx-auto">
-    <!-- Título centrado -->
+    <!-- Centered Title -->
     <h2
       class="text-[#0B2545] text-3xl md:text-4xl font-extrabold text-center uppercase mb-12"
     >
-      Contáctanos
+      Contact Us
     </h2>
 
-    <!-- Contenedor principal -->
+    <!-- Main Container -->
     <div class="flex flex-col md:flex-row items-start gap-12">
-      <!-- Texto -->
+      <!-- Text -->
       <div
         class="w-full md:w-1/2 text-center md:text-left flex flex-col justify-center"
       >
         <p class="text-gray-700 text-2xl font-bold leading-7 mb-6">
-          Déjanos tu mensaje y te responderemos a la brevedad. Nuestro equipo
-          está listo para ofrecerte asesoramiento personalizado y acompañarte en
-          cada paso del proceso.
+          Leave us a message and we will get back to you shortly. Our team is
+          ready to provide personalized advice and guide you through every step
+          of the process.
         </p>
         <p class="text-gray-700 text-2xl font-bold leading-7">
-          También podés comunicarte directamente por teléfono o correo si lo
-          preferís.
+          You can also contact us directly by phone or email if you prefer.
         </p>
       </div>
 
-      <!-- Formulario -->
-      <div class="w-full md:w-1/2 bg-gray-50  rounded-2xl">
-        <form >
-          <!-- Grid de dos columnas -->
+      <!-- Form -->
+      <div class="w-full md:w-1/2 bg-gray-50 rounded-2xl">
+        <form>
+          <!-- Two-column grid -->
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <!-- Nombre -->
+            <!-- First Name -->
             <div class="flex flex-col">
-              <label for="nombre" class="font-semibold text-[#0B2545] mb-2"
-                >Nombre</label
-              >
+              <label for="nombre" class="font-semibold text-[#0B2545] mb-2">
+                First Name
+              </label>
               <input
                 type="text"
                 id="nombre"
                 name="nombre"
-                placeholder="Tu nombre"
+                placeholder="Your first name"
                 class="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#F9C74F]"
                 required
               />
             </div>
 
-            <!-- Apellido -->
+            <!-- Last Name -->
             <div class="flex flex-col">
-              <label for="apellido" class="font-semibold text-[#0B2545] mb-2"
-                >Apellido</label
-              >
+              <label for="apellido" class="font-semibold text-[#0B2545] mb-2">
+                Last Name
+              </label>
               <input
                 type="text"
                 id="apellido"
                 name="apellido"
-                placeholder="Tu apellido"
+                placeholder="Your last name"
                 class="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#F9C74F]"
                 required
               />
             </div>
 
-            <!-- Correo -->
+            <!-- Email -->
             <div class="flex flex-col">
-              <label for="correo" class="font-semibold text-[#0B2545] mb-2"
-                >Correo electrónico</label
-              >
+              <label for="correo" class="font-semibold text-[#0B2545] mb-2">
+                Email
+              </label>
               <input
                 type="email"
                 id="correo"
                 name="correo"
-                placeholder="tu@correo.com"
+                placeholder="you@example.com"
                 class="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#F9C74F]"
                 required
               />
             </div>
 
-            <!-- Teléfono -->
+            <!-- Phone -->
             <div class="flex flex-col">
-              <label for="telefono" class="font-semibold text-[#0B2545] mb-2"
-                >Teléfono</label
-              >
+              <label for="telefono" class="font-semibold text-[#0B2545] mb-2">
+                Phone
+              </label>
               <input
                 type="tel"
                 id="telefono"
                 name="telefono"
-                placeholder="+54 9 ..."
+                placeholder="+1 555-555-5555"
                 class="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#F9C74F]"
               />
             </div>
           </div>
 
-          <!-- Mensaje -->
+          <!-- Message -->
           <div class="flex flex-col mt-6">
-            <label for="mensaje" class="font-semibold text-[#0B2545] mb-2"
-              >Mensaje</label
-            >
+            <label for="mensaje" class="font-semibold text-[#0B2545] mb-2">
+              Message
+            </label>
             <textarea
               id="mensaje"
               name="mensaje"
               rows="5"
-              placeholder="Escribe tu consulta aquí..."
+              placeholder="Write your inquiry here..."
               class="border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#F9C74F] resize-none"
               required></textarea>
           </div>
 
-          <!-- Botón -->
+          <!-- Button -->
           <div class="text-center md:text-right mt-4">
             <button
               type="submit"
               class="bg-[#F9C74F] text-[#0B2545] hover:bg-[#f1b500] font-bold px-14 py-3 rounded-full cursor-pointer transition"
             >
-              Enviar
+              Send
             </button>
           </div>
         </form>
