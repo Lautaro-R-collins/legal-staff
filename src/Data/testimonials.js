@@ -1,25 +1,25 @@
 export const testimonials = [
   {
     name: 'María González',
-    role: 'Cliente particular',
+    role: 'Private Client',
     message:
-      'El equipo de Legal Staff me acompañó durante todo el proceso. Gracias a su asesoramiento pude resolver mi caso de forma justa.',
+      'The Legal Staff team supported me throughout the entire process. Thanks to their advice, I was able to resolve my case fairly.',
     image:
       'https://randomuser.me/api/portraits/women/44.jpg',
   },
   {
     name: 'Carlos Fernández',
-    role: 'Empresario',
+    role: 'Entrepreneur',
     message:
-      'Excelente servicio, siempre disponibles para aclarar dudas y ofrecer soluciones rápidas. Los recomiendo sin dudarlo.',
+      'Excellent service — always available to answer questions and provide quick solutions. I highly recommend them.',
     image:
       'https://randomuser.me/api/portraits/men/35.jpg',
   },
   {
     name: 'Laura Pérez',
-    role: 'Emprendedora',
+    role: 'Business Owner',
     message:
-      'Recomiendo totalmente a Legal Staff. Me ayudaron a redactar contratos claros y proteger mi negocio desde el primer día.',
+      'I completely recommend Legal Staff. They helped me draft clear contracts and protect my business from day one.',
     image:
       'https://randomuser.me/api/portraits/women/68.jpg',
   },

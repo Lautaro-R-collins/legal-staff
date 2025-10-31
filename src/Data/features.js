@@ -1,15 +1,14 @@
-// data/features.js
 export const features = [
   {
-    title: 'Derecho Civil',
-    description: 'Asesoramiento en casos civiles y familiares con experiencia.',
+    title: 'Civil Law',
+    description: 'Advisory services in civil and family law cases with proven experience.',
   },
   {
-    title: 'Derecho Penal',
-    description: 'Defensa y representación legal en casos penales.',
+    title: 'Criminal Law',
+    description: 'Defense and legal representation in criminal cases.',
   },
   {
-    title: 'Derecho Laboral',
-    description: 'Asesoramiento en conflictos laborales y contratos.',
+    title: 'Labor Law',
+    description: 'Consulting on labor disputes and employment contracts.',
   },
 ];
