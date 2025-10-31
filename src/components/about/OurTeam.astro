@@ -4,13 +4,13 @@ import { teamMembers } from "../../Data/teamMembers.js";
 ---
 
 <section class="px-6 pb-16 max-w-7xl mx-auto text-center">
-  <h2 class="text-[#0B2545] text-3xl md:text-4xl font-extrabold uppercase tracking-[4px] mb-12">
-    Nuestro Equipo Legal
+  <h2
+    class="text-[#0B2545] text-3xl md:text-4xl font-extrabold uppercase tracking-[4px] mb-12"
+  >
+    Our Legal Team
   </h2>
 
   <div class="flex flex-wrap justify-center gap-10">
-    {teamMembers.map((member) => (
-      <TeamCard {...member} />
-    ))}
+    {teamMembers.map((member) => <TeamCard {...member} />)}
   </div>
 </section>
